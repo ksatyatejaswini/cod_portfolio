@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="viewport" width=" width=device-width , Initial scale=1.0">
+    <title>Teja_portfolio</title>
+    <link rel="icon"  href="D:\2.png">
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+<div id="header">
+ <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <div class="image">
+            <img src="D:\2.png">
+          </div>
+    </nav>
+ </div>  
+ </div>
+ <!---------------------------------------------------------------ABOUT---------------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <img src="D:\1.jpg" width="200" height="450">
+             </div>
+            <div class="right">
+                <h1>About Me</h1>
+                <p>My name is Tejaswini, a undergraduate student studying <b>Computer Science Engineering</b> in Pragati Engineering College,Surampalem.</p>
+            <div id="About Me">
+                <div class="container">
+                    <div class="titles">
+                        <p class="links" onclick="opentab('Education')">Education</p>
+                        <p class="links" onclick="opentab('Internships')">Internships</p>
+                        <p class="links" onclick="opentab('Skills')">Skills</p>
+                    </div>
+                    <div class="contents active-tab" id="Education">
+                        <span><li><b>Btech</b></li></span>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pragati Engineering college<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA:9.2</p>
+                        <span><li><b>Intermediate</b></li></span>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.B.R junior college<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percentage: 98%</p>
+                        <span><li><b>SSC</b> </li></span> 
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vignan(E.M) school <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA:10</p>
+                    </div>
+                    <div class="contents" id="Internships">
+                        <li>Infoaidtech(in progress)</li>
+                        <li>Robotic Process Automation</li>
+                        <li>Palo Alto Cyber security internship</li>
+                        <li>Celonis Process Mining Intenship</li>
+                        <li>Digital Productivity and Financial Literacy</li>
+                    </div>
+                    <div class="contents" id="Skills">
+                        <li>c</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("links");
+    var tabcontents = document.getElementsByClassName("contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!----------------------------------------------------------------------MY PROJECTS------------------------------------------------------>
+<section class="projects">
+    <div class="contain" id="projects">
+    <h1>Mini Projects</h1>  
+    <div class="divisions">
+        <div class="card">
+            <img src="https://summer.pes.edu/wp-content/uploads/2019/04/Serious-Python-263X263.jpg" width="100px" height="100px">
+            <p>It consists of python mini-projects as a part of infoaidtech internship<br>1.Number Guessig Game<br>2.To-Do list<br>3.Dice Roller</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn1.iconfinder.com/data/icons/online-and-web-glyph/64/code_activity_network-512.png" width="100px" height="100px">
+            <p>Login Page</p>
+            <P>I created this login page while I am learning HTML and CSS<br></P>
+            <a href="https://ksatyatejaswini.github.io/login_page/"><span>click here to see</span></a>
+        </div>
+        <div class="card">
+            <img src="https://th.bing.com/th/id/R.ca49b1c17d52a09037679741cb294d43?rik=DAT00kFz2UMi%2bw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_521065.png&ehk=XWNfr16VCj83GPxkBsg9MqI%2fkfZRrYOZ%2fp029ol9H8Y%3d&risl=&pid=ImgRaw&r=0" width="100px" height="100px">
+           <p>A mini-project of simple calcuator using HTML, CSS and Javascript which performs addtion, substraction, Multiplication and division<br>Try here
+             <a href="https://ksatyatejaswini.github.io/codsoft_cal/"><span>calcualtor</span></a></p>
+        </div>
+    </div>  
+    </div>
+</section>
+<!--------------------------certifications--------------->
+<div class="certificates" id="certificates">
+    <h1 class="heading">Certificates</h1>
+    <div class="divisions">
+        
+        <div class="card">
+           <a href="https://drive.google.com/drive/folders/1MKZHr6tZS-rMNf_oiJSUeaKu0RrVQ3Ww?usp=sharing">
+            <h2>Virtual Internships</h2> 
+           <img src="https://th.bing.com/th/id/R.5af187866c3bda0b0c308a63916004f1?rik=DZeoZXYMj8mXsg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_373596.png&ehk=gdmtOzFfwfICDAHnawNU09RhucHIVWOBW3C4%2b3BZ0xU%3d&risl=&pid=ImgRaw&r=0" width="50px" height="50px">
+        </a>
+        </div>
+        <div class="card">
+           <a href="https://drive.google.com/drive/folders/1MXmfBRDDwe5KaVi3jLYwISuNLdFEdcVA?usp=sharing">
+            <h2>Participation Certificates</h2>
+           <img src="https://th.bing.com/th/id/R.5af187866c3bda0b0c308a63916004f1?rik=DZeoZXYMj8mXsg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_373596.png&ehk=gdmtOzFfwfICDAHnawNU09RhucHIVWOBW3C4%2b3BZ0xU%3d&risl=&pid=ImgRaw&r=0" width="50px" height="50px"> 
+        </a>
+        </div>
+        <div class="card">
+            <a href="https://drive.google.com/drive/folders/1Nkyx8Z8mZa6N6xoLMBzLRjz9qSItCPQ5?usp=sharing">
+            <h2>Course completion certificates</h2>
+            <img src="https://th.bing.com/th/id/R.5af187866c3bda0b0c308a63916004f1?rik=DZeoZXYMj8mXsg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_373596.png&ehk=gdmtOzFfwfICDAHnawNU09RhucHIVWOBW3C4%2b3BZ0xU%3d&risl=&pid=ImgRaw&r=0" width="50px" height="50px">
+            </a>
+        </div>
+    </div>
+
+</div>
+   
+
+
+
+
+
+
+<!------------contacts-------------->
+<div calss="contact" id="contact">
+    <div class="heading">
+        <h1>contacts</h1>
+        <p><span>Gmail </span>: satyatejaswini996@gmail.com</p>
+    </div>
+    
+    <div>
+        <a href="#" download class="btn"><button>My Resume</button></a>
+    </div>
+
+    <div class="logos">
+        <a href="https://www.linkedin.com/in/kovvuri-satya-tejaswini-a71156250"><img src="https://www.effa.nl/wp-content/uploads/2018/01/linkedin-logo.png" width="150" height="150" alt="Linked In"></a>
+        <a href="https://www.hackerrank.com/satyatejaswini91"><img src="https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/e3/05/1b/e3051b03-d132-df20-c4be-980616c45b02/source/1200x630bb.jpg" width="150" height="150" alt="Hacherrank"></a>
+        <a href="https://github.com/ksatyatejaswini"><img src="https://blogthinkbig.com/wp-content/uploads/sites/4/2020/06/GitHub-Desktop-Logo.jpg?fit=1500%2C1000" width="180" height="150" alt="Git Hub"></a>
+    </div>
+
+   
+</div>
+
+
+<footer>
+    Copyright &copy; 2023. This website is designed by Tejaswini.
+</footer>
+</body>
+</html>
